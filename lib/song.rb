@@ -22,7 +22,7 @@ def self.count
 end
 
 def self.artists
-  return self.artists unless self.artists includes?(self)
+  return self.artists unless artists.include(self)
 end
 
 
