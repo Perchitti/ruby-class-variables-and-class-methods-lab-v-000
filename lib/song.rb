@@ -29,5 +29,13 @@ def self.genres
   @@genres.uniq
 end
 
+def genre_count
+hash = {}
+@@genres each do |genre|
+  genre.count
+
+end
+
+end
 
 end
