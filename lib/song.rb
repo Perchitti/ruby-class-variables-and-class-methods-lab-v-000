@@ -18,7 +18,7 @@ end
 
 
 def count
-  self.count
+  @@count
 end
 
 
