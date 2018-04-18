@@ -22,9 +22,12 @@ def self.count
 end
 
 def self.artists
-  self.artists unless artists.include(self)
+  @@artists.uniq
 end
 
+def self.genres
+  @@genres.uniq
+end
 
 
 end
