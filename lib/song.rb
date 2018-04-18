@@ -21,6 +21,10 @@ def self.count
   @@count
 end
 
+def self.artists
+  return self.artists unless self.artists includes?(self)
+end
+
 
 
 end
